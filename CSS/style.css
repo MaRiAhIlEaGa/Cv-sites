@@ -2,7 +2,7 @@ body {
     background-color: #caaec7;
     margin: 0;
     text-align: center;
-    font-family: 'Averia Libre', cursive;
+    font-family: 'Merriweather', serif;
     font-size: 12px;
 }
 h1 {
@@ -24,6 +24,13 @@ img {
     width: 250px;
     height: 250px;
 }
+hr {
+    border-color: #D8D8D8;
+    border-style: dotted;
+    border-width: 0.4rem 0 0;
+    margin-bottom: 4.3rem;
+    width: 8%;
+}
 .footer-link {
     color: #7D5A50;
 }
@@ -31,6 +38,11 @@ img {
     position: relative;
     padding-top: 100px;
     padding-bottom: 20px;
+}
+.bottom-container {
+    background-color: #483434;
+    color: #caaec7;
+    padding: 20px 0;
 }
 .bottom-cloud {
     position: absolute;
@@ -61,4 +73,18 @@ img {
 .skill-img {
     float: right;
     margin-left: 30px;
+}
+.profile {
+    text-align: center;
+}
+.btn {
+    background: #483434;
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Merriweather', serif;
+    color: #ffffff;
+    font-size: 10px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
 }
